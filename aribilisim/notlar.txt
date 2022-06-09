@@ -1,0 +1,177 @@
+.col-md-x : medium ekranlarda ilgili divler yan yana gelir.
+.col-sm-x : small ekranlarda ilgili divler yan yana gelir.
+.col-lg-x : large ekranlarda ilgili divler yan yana gelir.
+.col-xl-x : x-large ekranlarda ilgili divler yan yana gelir.
+.col-x    : tüm ekranlarda ilgili divler yanyana gelir.
+
+text-justify : yazıları kitaplardaki gibi ki kenarda da yana yaslar.
+text-left : nesneleri (div ve div türleri hariç)o divin içindeki tüm nesneleri sola yaslar.
+text-right: nesneleri (div ve div türleri hariç)o divin içindeki tüm nesneleri sağa yaslar.
+text-center:nesneleri (div ve div türleri hariç)o divin içindeki tüm nesneleri ortaya getirir.
+container:boxed tip sayfa yapısı oluşturmak için kullanılır.
+container-fluid:full width tip sayfa yapısı oluşturmak için kullanılır.
+row : kolon divlerini yanyana konumlandırmak için kullanılması gerekiyor.
+
+renkler
+
+text-primary:mavi yazı
+text-secondary:açık gri yazı
+text-success:yeşil yazı
+text-danger:kırmızı yazı
+test-warning:kırmızı yazı
+text-info:turkuaz yazı
+text-light:çok hafif gri yazı (neredeyse beyaz)
+text-dark:koyu gri yazı
+text-white:beyaz yazı
+
+bg-primary:mavi background
+bg-secondary:açık gri background
+bg-success:yeşil background
+bg-danger:kırmızı background
+bg-warning:kırmızı background
+bg-info:turkuaz background
+bg-light:çok hafif gri background (neredeyse beyaz)
+bg-dark:koyu gri background
+bg-white:beyaz background
+bg-transparent:transparan background
+
+btn-primary:mavi buton
+btn-secondary:açık gri buton
+btn-success:yeşil buton
+btn-danger:kırmızı buton
+btn-warning:kırmızı buton
+btn-info:turkuaz buton
+btn-light:çok hafif gri buton (neredeyse beyaz)
+btn-dark:koyu gri buton
+btn-white:beyaz buton
+btn-transparent:transparan buton
+
+
+margin ve padding class ları
+
+m-1:her kenardan yaklaşık 10 px boyutunda dış uzaklık oluşturur.
+m-2:her kenardan yaklaşık 20 px boyutunda dış uzaklık oluşturur.
+m-3:her kenardan yaklaşık 30 px boyutunda dış uzaklık oluşturur.
+m-4:her kenardan yaklaşık 40 px boyutunda dış uzaklık oluşturur.
+m-5:her kenardan yaklaşık 50 px boyutunda dış uzaklık oluşturur.
+
+mt-1:sadece üst kenardan yaklaşık 10 px boyutunda dış uzaklık oluşturur.
+mt-2:sadece üst kenardan yaklaşık 20 px boyutunda dış uzaklık oluşturur.
+mt-3:sadece üst kenardan yaklaşık 30 px boyutunda dış uzaklık oluşturur.
+mt-4:sadece üst kenardan yaklaşık 40 px boyutunda dış uzaklık oluşturur.
+mt-5:sadece üst kenardan yaklaşık 50 px boyutunda dış uzaklık oluşturur.
+
+mb-1:sadece alt kenardan yaklaşık 10 px boyutunda dış uzaklık oluşturur.
+mb-2:sadece alt kenardan yaklaşık 20 px boyutunda dış uzaklık oluşturur.
+mb-3:sadece alt kenardan yaklaşık 30 px boyutunda dış uzaklık oluşturur.
+mb-4:sadece alt kenardan yaklaşık 40 px boyutunda dış uzaklık oluşturur.
+mb-5:sadece alt kenardan yaklaşık 50 px boyutunda dış uzaklık oluşturur.
+
+ml-1:sadece sol kenardan yaklaşık 10 px boyutunda dış uzaklık oluşturur.
+ml-2:sadece sol kenardan yaklaşık 20 px boyutunda dış uzaklık oluşturur.
+ml-3:sadece sol kenardan yaklaşık 30 px boyutunda dış uzaklık oluşturur.
+ml-4:sadece sol kenardan yaklaşık 40 px boyutunda dış uzaklık oluşturur.
+ml-5:sadece sol kenardan yaklaşık 50 px boyutunda dış uzaklık oluşturur.
+
+
+mr-1:sadece sağ kenardan yaklaşık 10 px boyutunda dış uzaklık oluşturur.
+mr-2:sadece sağ kenardan yaklaşık 20 px boyutunda dış uzaklık oluşturur.
+mr-3:sadece sağ kenardan yaklaşık 30 px boyutunda dış uzaklık oluşturur.
+mr-4:sadece sağ kenardan yaklaşık 40 px boyutunda dış uzaklık oluşturur.
+mr-5:sadece sağ kenardan yaklaşık 50 px boyutunda dış uzaklık oluşturur.
+
+
+mx-1:hem sağ hem sol kenardan yaklaşık 10 px boyutunda dış uzaklık oluşturur.
+mx-2:hem sağ hem sol kenardan yaklaşık 20 px boyutunda dış uzaklık oluşturur.
+mx-3:hem sağ hem sol kenardan yaklaşık 30 px boyutunda dış uzaklık oluşturur.
+mx-4:hem sağ hem sol kenardan yaklaşık 40 px boyutunda dış uzaklık oluşturur.
+mx-5:hem sağ hem sol kenardan yaklaşık 50 px boyutunda dış uzaklık oluşturur.
+
+my-1:hem alt hem üst kenardan yaklaşık 10 px boyutunda dış uzaklık oluşturur.
+my-2:hem alt hem üst kenardan yaklaşık 20 px boyutunda dış uzaklık oluşturur.
+my-3:hem alt hem üst kenardan yaklaşık 30 px boyutunda dış uzaklık oluşturur.
+my-4:hem alt hem üst kenardan yaklaşık 40 px boyutunda dış uzaklık oluşturur.
+my-5:hem alt hem üst kenardan yaklaşık 50 px boyutunda dış uzaklık oluşturur.
+
+p-1:her kenardan yaklaşık 10 px boyutunda iç genişlik oluşturur.
+p-2:her kenardan yaklaşık 20 px boyutunda iç genişlik oluşturur.
+p-3:her kenardan yaklaşık 30 px boyutunda iç genişlik oluşturur.
+p-4:her kenardan yaklaşık 40 px boyutunda iç genişlik oluşturur.
+p-5:her kenardan yaklaşık 50 px boyutunda iç genişlik oluşturur.
+
+pt-1:sadece üst kenardan yaklaşık 10 px boyutunda iç genişlik oluşturur.
+pt-2:sadece üst kenardan yaklaşık 20 px boyutunda iç genişlik oluşturur.
+pt-3:sadece üst kenardan yaklaşık 30 px boyutunda iç genişlik oluşturur.
+pt-4:sadece üst kenardan yaklaşık 40 px boyutunda iç genişlik oluşturur.
+pt-5:sadece üst kenardan yaklaşık 50 px boyutunda iç genişlik oluşturur.
+
+pb-1:sadece alt kenardan yaklaşık 10 px boyutunda iç genişlik oluşturur.
+pb-2:sadece alt kenardan yaklaşık 20 px boyutunda iç genişlik oluşturur.
+pb-3:sadece alt kenardan yaklaşık 30 px boyutunda iç genişlik oluşturur.
+pb-4:sadece alt kenardan yaklaşık 40 px boyutunda iç genişlik oluşturur.
+pb-5:sadece alt kenardan yaklaşık 50 px boyutunda iç genişlik oluşturur.
+
+pl-1:sadece sol kenardan yaklaşık 10 px boyutunda iç genişlik oluşturur.
+pl-2:sadece sol kenardan yaklaşık 20 px boyutunda iç genişlik oluşturur.
+pl-3:sadece sol kenardan yaklaşık 30 px boyutunda iç genişlik oluşturur.
+pl-4:sadece sol kenardan yaklaşık 40 px boyutunda iç genişlik oluşturur.
+pl-5:sadece sol kenardan yaklaşık 50 px boyutunda iç genişlik oluşturur.
+
+
+pr-1:sadece sağ kenardan yaklaşık 10 px boyutunda iç genişlik oluşturur.
+pr-2:sadece sağ kenardan yaklaşık 20 px boyutunda iç genişlik oluşturur.
+pr-3:sadece sağ kenardan yaklaşık 30 px boyutunda iç genişlik oluşturur.
+pr-4:sadece sağ kenardan yaklaşık 40 px boyutunda iç genişlik oluşturur.
+pr-5:sadece sağ kenardan yaklaşık 50 px boyutunda iç genişlik oluşturur.
+
+
+px-1:hem sağ hem sol kenardan yaklaşık 10 px boyutunda iç genişlik oluşturur.
+px-2:hem sağ hem sol kenardan yaklaşık 20 px boyutunda iç genişlik oluşturur.
+px-3:hem sağ hem sol kenardan yaklaşık 30 px boyutunda iç genişlik oluşturur.
+px-4:hem sağ hem sol kenardan yaklaşık 40 px boyutunda iç genişlik oluşturur.
+px-5:hem sağ hem sol kenardan yaklaşık 50 px boyutunda iç genişlik oluşturur.
+
+py-1:hem alt hem üst kenardan yaklaşık 10 px boyutunda iç genişlik oluşturur.
+py-2:hem alt hem üst kenardan yaklaşık 20 px boyutunda iç genişlik oluşturur.
+py-3:hem alt hem üst kenardan yaklaşık 30 px boyutunda iç genişlik oluşturur.
+py-4:hem alt hem üst kenardan yaklaşık 40 px boyutunda iç genişlik oluşturur.
+py-5:hem alt hem üst kenardan yaklaşık 50 px boyutunda iç genişlik oluşturur.
+
+btn btn-renk : butnun rengini oluşturur.
+img-fluid : büyük görselin içinde bulunduğu kolonun yatay ölçüsüne göre orantılı olarak küçültür.
+my-auto : sadece yüksekliği küçük olan kolona uygulanabilir.dikey olarak ortalamanmasını sağlar.
+mx-auto : col-12 den küçük ve tek kolon için kullanılır. ilgili kolonu yatayda ortaya konumlandırır.
+w-25:ilgili nesneyi içinde bulunduğu kolonun %25 i olacak şekilde orantılı boyutlandırır.
+w-50:ilgili nesneyi içinde bulunduğu kolonun %50 i olacak şekilde orantılı boyutlandırır.
+w-75:ilgili nesneyi içinde bulunduğu kolonun %75 i olacak şekilde orantılı boyutlandırır.
+w-100:ilgili nesneyi içinde bulunduğu kolonun %100 i olacak şekilde orantılı boyutlandırır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
