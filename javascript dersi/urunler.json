@@ -1,0 +1,11 @@
+{
+   "web":"https://www.cagrıgungor.com",
+   "banka":"iycizo",
+   "urunler":[
+   	{"urun adi":"iphone","fiyat":19000},
+   	{"urun adi":"macbook","fiyat":21000},
+    {"urun adi":"imac","fiyat":34000}
+
+   ]
+
+}
