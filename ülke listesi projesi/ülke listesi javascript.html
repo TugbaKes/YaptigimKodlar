@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Cascading Dependent Dropdown Country, State, City Using JavaScript</title>
+        <style>
+            .worldForm {
+                background: #00bcd4;
+                border: 1px solid #e4e4e4;
+                border-radius: 4px;
+                padding: 20px;
+            }
+            .lists {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="worldForm">
+            <div class="lists">
+                <label>Ülke:</label>
+                <select name="country" id="countyList">
+                    <option value="" selected="selected">Ülke Seç</option>
+                </select>
+            </div>
+            <div class="lists">
+                <label>Şehir:</label>
+                <select name="state" id="stateList">
+                    <option value="" selected="selected">Şehir Seç</option>
+                </select>
+            </div>
+            <div class="lists">
+                <label>İlçe:</label>
+                <select name="city" id="cityList">
+                    <option value="" selected="selected">İlçe Seç</option>
+                </select>
+            </div>
+        </form>
+ 
+        <script>
+            var worldData = {
+                USA: {
+                    California: ["Los Angeles", "San Diego", "Sacramento"],
+                    Texas: ["Houston", "Austin"],
+                    Florida: ["Miami", "Orlando", "Tampa"],
+                },
+                Türkiye: {
+                    İstanbul: ["Bahçelevler", "Kartal", "Beşiktaş"],
+                    Ankara: ["Bahçelevler"],
+                },
+                Canada: {
+                    Alberta: ["Calgary", "Edmonton", "Red Deer"],
+                    BritishColumbia: ["Vancouver", "Kelowna"],
+                    Manitoba: ["Winnipeg", "Brandon"],
+                },
+                Germany: {
+                    Bavaria: ["Munich", "Nuremberg"],
+                    NorthRhine: ["Cologne", "Düsseldorf"],
+                },
+            };
+            window.onload = function () {
+                var countyList = document.getElementById("countyList"),
+                    stateList = document.getElementById("stateList"),
+                    cityList = document.getElementById("cityList");
+                for (var country in worldData) {
+                    countyList.options[countyList.options.length] = new Option(country, country);
+                }
+                countyList.onchange = function () {
+                    stateList.length = 1;
+                    cityList.length = 1;
+                    if (this.selectedIndex < 1) return;
+                    for (var state in worldData[this.value]) {
+                        stateList.options[stateList.options.length] = new Option(state, state);
+                    }
+                };
+                countyList.onchange();
+                stateList.onchange = function () {
+                    cityList.length = 1;
+                    if (this.selectedIndex < 1) return;
+                    var city = worldData[countyList.value][this.value];
+                    for (var i = 0; i < city.length; i++) {
+                        cityList.options[cityList.options.length] = new Option(city[i], city[i]);
+                    }
+                };
+            };
+        </script>
+    </body>
+</html>
